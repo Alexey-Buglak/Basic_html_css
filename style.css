@@ -86,9 +86,10 @@
     background-color: rgb(30, 111, 111);
 }
 .container__item::after {
+    /* абсолют, который фиксирует елемент к елементу с position: relative. перемещать его с помощью: top, bottom, right, left */
     position: absolute;
     /* top: 1px; */
-    /* top: 1px; */
+    /* bottom: ;: 1px; */
     right: 10px;
     /* left: 1px; */
     
@@ -105,7 +106,7 @@
     background-color: red;
     height: 10px;
     width: 1px;
-    right: 10px;
+    left: 10px;
     top: 45%;
     transform: translateY(-65%);
     transform: rotate(90deg);
@@ -127,6 +128,7 @@
     /* gap: 15px; расстояние между кубиками */
 
     /* flex-wrap: wrap; */
+
     /* row-gap: ; */
     /* column-gap: ; */
 }
